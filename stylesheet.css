@@ -194,10 +194,29 @@ footer {
 @media all and (max-width: 670px) {
   .header{
     max-width:100%;
+    height: 100px;
   } 
+  
+  .header-logo {
+    float: left;
+    font-size: 80px;
+    padding: 5px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 20px
+    font-size: 40px;
+  }
+  
+  .header-login {
+    float: right;
+    font-size: 40px;
+  }
   
   .top-wrapper .btn {
     max-width: 100%;
+    height:auto;
   }
 
   .twitter {
