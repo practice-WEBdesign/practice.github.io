@@ -183,10 +183,6 @@ footer {
   .lesson-wrapper {
     height: 990px;
   }
-
-  footer {
-    text-align: center;
-  }
 }
 
 @media all and (max-width: 750px) {
@@ -200,15 +196,7 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .top-wrapper .btn {
+   .top-wrapper .btn {
     width: 100%;
   }
 
@@ -226,10 +214,6 @@ footer {
 
   .top-wrapper p {
     font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
   }
 
   .lesson-wrapper {
