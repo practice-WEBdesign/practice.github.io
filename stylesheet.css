@@ -191,10 +191,13 @@ footer {
 }
 
 /* デバイス：スマホ */
-
 @media all and (max-width: 670px) {
-   .top-wrapper .btn {
-    width: 100%;
+  .header{
+    max-width:100%;
+  } 
+  
+  .top-wrapper .btn {
+    max-width: 100%;
   }
 
   .twitter {
