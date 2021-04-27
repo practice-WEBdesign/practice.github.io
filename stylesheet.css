@@ -202,14 +202,15 @@ footer {
       margin-left: 20px;
       padding-left: 0px;
     }
+  .top-wrapper{
+    width: auto;
+    padding: 0px;
+  }
   .container{
     height: 360px;
     width:auto;
     text-align: left;
   }
-    .top-wrapper {
-      padding: 0px;
-    }
     .top-wrapper h1{
       font-size: 20px;
       letter-spacing: 5px;
