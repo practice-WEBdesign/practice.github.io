@@ -183,7 +183,7 @@ footer {
   }
 
   /* デバイス：スマホ */
-@media (max-width: 670px) {
+@media (max-width: 900px) {
   header{
     height: 100px;
   } 
