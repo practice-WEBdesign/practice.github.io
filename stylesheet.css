@@ -49,7 +49,7 @@ header {
 /* 中身1 */
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(3865459_s.jpg);
+  background-image: url(https://thumb.photo-ac.com/99/998f181698d6d1c7ecebe2a665d0d49a_w.jpeg);
   background-size: cover;
   color: white;
   text-align: right;
@@ -100,6 +100,10 @@ header {
       border-radius: 4px;
       padding: 0px;
     }
+    .line img{
+      vertical-align:bottom;
+      border-radius: 4px;
+    }
       .line:hover {
         opacity: 1;
       }
@@ -118,6 +122,7 @@ header {
     .contents-item img{
       height: 180px;
       width: auto;
+      vertical-align:bottom;
     }
     .contents-item {
       padding: 10px;
@@ -130,7 +135,7 @@ header {
 
 /* 中身3 */
 .message-wrapper {
-  background-image: url(4478623_s.jpg);
+  background-image: url(https://thumb.photo-ac.com/23/23bd44ba04c345e25c6f1588c6f506c3_w.jpeg);
   background-size: cover;
 }
   .contact-form {
@@ -177,69 +182,60 @@ footer {
     padding-top: 100px;
   }
 
-/* デバイス */
-/* デバイス：タブレット */
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-}
-
-/* デバイス：スマホ */
-@media all and (max-width: 670px) {
-  .header{
-    max-width:100%;
+  /* デバイス：スマホ */
+@media (max-width: 670px) {
+  header{
     height: 100px;
+    width: auto;
   } 
-  
-  .header-logo {
-    float: left;
-    font-size: 80px;
-    padding: 5px;
-  }
-  
-  .header-list li {
-    float: left;
-    padding: 20px
-    font-size: 40px;
-  }
-  
-  .header-login {
-    float: right;
-    font-size: 40px;
-  }
-  
-  .top-wrapper .btn {
-    max-width: 100%;
-    height:auto;
-  }
-
-  .twitter {
-    margin-top: 10px;
-  }
-
-  .top-wrapper {
+    .header-logo{
+      font-size: 40px;
+      float: none;
+    }
+    .header-list li{
+      padding: 5px;
+    }
+    .header-login {
+      float: right;
+      font-size: 20px;
+      margin-top: 5px;
+      margin-left: 20px;
+      padding-left: 0px;
+    }
+  .container{
+    height: 360px;
+    width:auto;
     text-align: left;
   }
-
-  .top-wrapper h1 {
-    font-size: 24px;
+    .top-wrapper {
+      padding: 0px;
+    }
+    .top-wrapper h1{
+      font-size: 20px;
+      letter-spacing: 5px;
+      height: 60px;
+      text-align: right;
+    }
+    .top-wrapper p {
+      font-size: 10px;
+      margin-bottom: 120px;
+      text-align: right;
+    }
+    .box{
+      position: absolute;
+    }
+    .btn {
+      padding: 2px 5px;
+      margin: 0px;
+    }
+    .top-wrapper #b{
+      margin-bottom: 0px;
+      text-align: left;
+    }
+  .lesson-wrapper{
+    padding: 10px;
   }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
-  }
-
-  .message-wrapper .btn {
-    width: 100%;
+  .contents h1{
+    font-size: 20px;
   }
 }
