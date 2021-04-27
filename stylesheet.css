@@ -203,23 +203,22 @@ footer {
     }
   .top-wrapper{
     width: auto;
-    padding: 0px;
+    padding: 10px;
+    height: 600px;
   }
   .container{
-    height: 360px;
-    width:auto;
+    width: max-content;
     text-align: left;
+    margin: 0px;
   }
     .top-wrapper h1{
       font-size: 20px;
       letter-spacing: 5px;
       height: 60px;
-      text-align: right;
     }
     .top-wrapper p {
       font-size: 10px;
-      margin-bottom: 120px;
-      text-align: right;
+      margin-bottom: 250px;
     }
     .box{
       position: absolute;
