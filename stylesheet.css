@@ -58,7 +58,6 @@ header {
   z-index: 100;
   display: none;
 }
-
 .modal {
   position: absolute;
   top: 20%;
@@ -70,7 +69,6 @@ header {
   height: auto;
   text-align: center;
 }
-
 .fa-times {
   position: absolute;
   top: 12px;
@@ -78,21 +76,13 @@ header {
   color: rgba(128, 128, 128, 0.46);
   cursor: pointer;
 }
-
 .fa-2x {
   font-size: 2em;
 }
-#signup-form, #login-form {
+#login-form {
   width: 100%;
 }
-
-#signup-form h2, #login-form h2 {
-  color: #5f5d60;
-  letter-spacing: 1px;
-  margin-bottom: 40px;
-}
-
-#signup-form input, #login-form input {
+#login-form input {
   width: 320px;
   margin-bottom: 20px;
   font-size: 12px;
@@ -100,7 +90,6 @@ header {
   border: 1px solid #d0d5d8;
   border-radius: 5px;
 }
-
 #submit-btn {
   display: inline-block;
   padding: 14px 140px;
